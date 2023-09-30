@@ -13,7 +13,9 @@ POST http://localhost:1234/usuarios/
 Content-Type: application/json
 
 {
-    "nombre": "Franco VIllarruel",
+    "nombres": "Franco VIllarruel",
+    "apellidos": "Villarruel",
+    "email": "frankko.villa@gmail.com",
     "telefono": "264-4-447017"
 }
 ###4. Crear el endpoint ‘/usuarios/id’ que permita modificar algún atributo de un usuario.
